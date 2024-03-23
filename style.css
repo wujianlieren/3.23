@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.nav {
+    margin-left: 160px;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 72px;
+    width: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav li:hover {
+    background-color: #5696ff;
+}
+
+.head {
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    margin-top: 7px;
+}
+.logo img{
+    vertical-align: middle;
+}
+
+.head>div {
+
+    margin-right: 50px;
+}
+
+.login p {
+    float: left;
+    line-height: 72px;
+    margin-left: 10px;
+}
+
+.banner {
+    background: url(img/banner.jpg) no-repeat center;
+    position: relative;
+}
+
+.banner .rect1 {
+    margin: auto;
+    width: 60px;
+    height: 600px;
+}
+
+.rect1 .circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 550px;
+}
+
+.rect1 .circle2 {
+    width: 18px;
+    height: 18px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 550px;
+
+}
+
+.search .rect {
+    width: 350px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.search {
+    margin: auto;
+    margin-top: 70px;
+    width: 350px;
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+}
+
+.rect p {
+    line-height: 18px;
+    position: relative;
+    top: 30%;
+}
+
+.area {
+    width: 350px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.area .rect {
+    width: 80px;
+    height: 7px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.area_travel p {
+    margin-right: 30px;
+    line-height: 50px;
+    font-size: 36px;
+    color: #5696ff;
+}
+
+.area>p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 22px;
+}

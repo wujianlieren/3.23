@@ -4,86 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>travel</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .clear {
-            clear: both;
-        }
-
-        .nav li {
-            float: left;
-            text-align: center;
-            margin-right: 20px;
-            line-height: 72px;
-            width: 80px;
-            list-style: none;
-            font-size: 18px;
-        }
-
-        .nav li:hover {
-            background-color: #5696ff;
-        }
-
-        .head {
-            width: 1200px;
-
-            margin: auto;
-        }
-
-        .head>div {
-
-            margin-right: 50px;
-        }
-
-        .fl {
-            float: left;
-        }
-
-        .fr {
-            float: right;
-        }
-
-        .login p {
-            float: left;
-            line-height: 72px;
-            margin-left: 10px;
-        }
-
-        .banner {
-            background-image: url(img/banner.jpg);
-            width: 1920px;
-            height: 600px;
-            position: relative;
-        }
-        .banner .circles{
-            margin: auto;
-            width: 80px;
-            height: 30px;
-            background-color: green;
-            position: absolute;
-            bottom:30px;
-            
-        }
-        .circles .circle1 {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: white;
-            float: left;                       
-        }
-        .circles .circle2 {
-            width: 18px;
-            height: 18px;
-            border: 2px solid white;
-            border-radius: 50%;            
-            float: left;  
-            margin-left: 10px;          
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -91,8 +12,8 @@
         <div class="wrap">
             <div class="head">
                 <div class="logo fl">
-                    <img src="img/logo.png" alt="logo">
-                    <img src="img/name.png" alt="logo">
+                    <img src="img/logo.png" >
+                    <img src="img/name.png" >
                 </div>
                 <div class="nav fl">
                     <ul>
@@ -124,11 +45,27 @@
             </div>
         </div>
         <div class="banner">
-            <div class="circles">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
+            <div class="rect1">
+                <div class="circle1 fl"></div>
+                <div class="circle2 fr"></div>
                 <div class="clear"></div>
             </div>
+        </div>
+        <div class="search">
+            <div class="rect fl">
+                <p>开启你的旅程吧!</p>
+            </div>
+            <img src="img/ICON.png" class="fr">
+            <div class="clear"></div>
+        </div>
+        <div class="area">
+            <div class="area_travel">
+                <div class="rect fr"></div>
+                <p class="fr">地区旅游</p>
+                <div class="rect fl"></div>
+                <div class="clear"></div>
+            </div>
+            <p>从这里开始有意思的地区文化</p>
         </div>
     </div>
 </body>
