@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>travel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="travel.css">
 </head>
 
 <body>
     <div class="container">
+        <!-- 导航栏 -->
         <div class="wrap">
             <div class="head w1200">
                 <div class="logo fl">
@@ -36,9 +37,9 @@
                     </ul>
                 </div>
                 <div class="login fr">
-                    <p>登录</p>
-                    <p>|</p>
-                    <p>注册</p>
+                    <p class="fl">登录</p>
+                    <p class="fl">|</p>
+                    <p class="fl">注册</p>
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
@@ -66,9 +67,7 @@
             <div class="rect_short fr"></div>
             <div class="clear"></div>
         </div>
-        <p class="travel_slogan w1200">在这可以找到最好的旅游攻略</p>
-
-        <!-- videos -->
+        <p class="travel_slogan w1200">在这可以找到最好的旅游攻略</p>        
         <div class="videos w1200">
             <div class="sichuan">
                 <div class="rect">
@@ -104,9 +103,7 @@
                 </div>
             </div>
             <div class="clear"></div>
-        </div>
-
-        <!-- button -->
+        </div>        
         <button class="all_button">More></button>
         
         
@@ -158,12 +155,9 @@
                     <div class="india">
                         <span>印度4晚6日经典游</span>
                     </div>
-                </div>
-                <div class="clear">
-                </div>
+                </div>                
                 <div class="clear"></div>
             </div>
-
             <button class="all_button">More></button>
 
         </div>
@@ -178,7 +172,6 @@
             <div class="clear"></div>
         </div>
         <p class="travel_slogan w1200">各种奇妙有趣的新闻等你来发现哦</p>
-
         <div class="travel_img w1200">
             <img src="img/small.jpg" alt="">
         </div>
@@ -217,6 +210,8 @@
         </div>
         <button class="all_button">More></button>
 
+        
+
         <!-- 游记分享 -->
         <div class="travel_title">
             <div class="rect_short fl"></div>
@@ -227,7 +222,90 @@
             <div class="clear"></div>
         </div>
         <p class="travel_slogan w1200">在这可以找到最好的旅游攻略</p>
+        <div class="selected_articles w1200 ">
+            <div class="main_article fl">
+                <div class="selected_rect">
+                    <p class="selected">精选文章</p>
+                    <p class="dali">大理，与阳光约会<br>
+                        <span>云南&nbsp;&nbsp;|大理&nbsp;&nbsp;|&nbsp;&nbsp;洱海</span>
+                    </p>
+                    <p class="date">2017年1月13日</p>
+                    <p class="main_detail">寒假开始，我便踏上了开往云南的列车。武汉的冬天基本上是阴暗湿冷的，我多想赶快到达云南，拥抱温暖的阳光。</p>
+                    <p class="main_detail">十几天里，我在海埂长堤上喂过海鸥，在洱海沿线画了一个圈，在双廊享受面朝大海春暖花开的惬意，在丽江的阿安酸奶和前台的山东老乡晒太阳聊天，在虎跳峡和棒子们你追我赶。曾经嫌弃过大理的冷清，也曾经抱怨过丽江的物质。但是，当真正要离开的时候，满满的都是不舍...</p>
+                    <button>完整文章</button>
+                </div>
+            </div>
+            <div class="selected_imgs fr">
+                <div class="img_up">
+                    <div class="picture">
+                        <div class="text fl">卡瓦格博</div>
+                        <div class="text fl">黄昏</div>
+                        <div class="clear"></div>
+                    </div>
+                    <p class="date_slogan">2017.01.03<br>泰国—活着的冲动，浮生一场春梦</p>
+                    <p class="selected_detail">上世纪80年代，我的父母青春年少之时，生于小城镇的他们还穿着母亲亲手裁制的衣裤，过着粮票兑粮，精打细算的生活 当时的崔健还未成名，收音机里放的还是邓丽君、山口百惠.... 而此时的大...
+                        <span>完整文章>></span></p>
+                </div>
+                <div class="img_up img2">
+                    <div class="picture picture2">
+                        <div class="text fl">卡瓦格博</div>
+                        <div class="text fl">黄昏</div>
+                        <div class="clear"></div>
+                    </div>
+                    <p class="date_slogan">2017.04.15<br>初见卡瓦格博</p>
+                    <p class="selected_detail">飞来寺，斗转星移间，我们守望6740的日照金山。当一缕缕金色的光线，洒满卡瓦格博的峰尖，就在那一瞬间，我挣脱了重重桎梏，舍却了依依旧念，只为那游荡不安的心魂，从此越发疯癫...>>
+                        <span>完整文章>></span></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
 
+        <!-- 精選圖片 -->
+        <div class="w1200 good_pictures">
+            <p>精选照片</p>
+            <div class="pictures">
+                <img src="img/good_1.jpg" alt="">
+                <img src="img/good_2.jpg" alt="">
+                <img src="img/good_3.jpg" alt="">
+                <img src="img/good_4.jpg" class="img4" alt="">
+            </div>
+            <div class="boxes">
+                <div class="box fl">
+                    <img src="img/arrow_left.png" alt="">
+                </div>
+                <div class="box fr">
+                    <img src="img/arrow_right.png" alt="">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="date_name">
+                <p class="fl">
+                    2017.03.06&nbsp;&nbsp;&nbsp;&nbsp;By Ben<br>
+                    深入贺兰山
+                </p>
+                <p class="fl">
+                    2017.03.06&nbsp;&nbsp;&nbsp;&nbsp;By Ben<br>
+                    深入贺兰山
+                </p>
+                <p class="fl">
+                    2017.03.06&nbsp;&nbsp;&nbsp;&nbsp;By Ben<br>
+                    深入贺兰山
+                </p>
+                <p class="fl" style="margin-right: 0;">
+                    2017.03.06&nbsp;&nbsp;&nbsp;&nbsp;By Ben<br>
+                    深入贺兰山
+                </p>
+                <div class="clear"></div>
+            </div>            
+        </div>
+        <button class="all_button">More&gt;</button>
+        
+        <!-- 底部 -->
+        <div class="bottom">
+            <p>© 2017 Leyouyou.cn 粤ICP备12345678号 粤公网安备123456789012号 粤ICP证123456号<br>
+                营业执照 新出网证(粤)字123号 全国统一客服电话：0000-123-456</p>
+        </div>
+        
 
     </div>
 </body>

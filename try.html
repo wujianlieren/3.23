@@ -5,23 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
-        
-        .all_button{
-    display: block;
-    width: 156px;
-    height: 50px;
-    border-radius: 5px;
-    border: solid #5696ff 2px;
-    font-size: 26px;
-    color: #5696ff;
-    background-color: transparent;
-    margin-top: 70px;
-    margin: auto;
-}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .clear{
+            clear:both;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .first{
+            width: 500px;
+            height: 500px;
+            padding: 200px;
+            background-color: red;
+        }
+        .second{
+            
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            
+        }
+        .third{
+            background-color: blue;
+            width: 1000px;
+            height: 100px;
+            margin-left: 50px;
+            
+        }
+        .four{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+        }
+       
     </style>
 </head>
 <body>
-    <button class="all_button">More></button>
+    <div class="warp">
+    <div class="first">
+        <div class="second fl "></div>
+        <div class="third fl"></div>
+        <div class="four fl"></div>
+        <div class="clear"></div>
+    </div>
+</div>
 </body>
 </html>
