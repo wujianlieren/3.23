@@ -1,0 +1,103 @@
+/* banner */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+.nav {
+    margin-left: 160px;
+}
+.w1200{
+    width: 1200px;
+    margin: auto;
+}
+.nav li {
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 72px;
+    width: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav li:hover {
+    background-color: #5696ff;
+}
+
+.logo{
+    margin-top: 7px;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.head>div {
+    margin-right: 50px;
+}
+
+.login p {    
+    line-height: 72px;
+    margin-left: 10px;
+}
+
+/* 搜索栏 */
+.search{
+    background-color: #666666;
+    padding: 20px 0;
+}
+.left .rect{
+    width: 2px;
+    height: 22px;
+    background-color: white;
+    margin-right: 40px;
+}
+.left .img{
+    margin-right: 40px;
+}
+
+/* banner */
+.banner{
+    margin-top: 56px;
+}
+.banner_img{
+    width: 970px;
+    height: 560px;
+    background: url(../img/area/banner.jpg);
+}
+.area{
+    width: 160px;
+    height: 540px;
+    background-color: #666666;
+    padding-top: 20px;
+}
+.area p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.area div{
+    
+    width: 70px;
+    border:0.5px solid #b2b2b2;
+    margin: auto;
+    margin-top: 20px;
+}

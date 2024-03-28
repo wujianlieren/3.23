@@ -219,34 +219,24 @@ ul{
 }
 
 /* pages */
-.pages{
-    position: relative;
-}
-.pages button{
-    width: 190px;
-    height: 60px;
-    border: 2px solid #dcdcdc;
-    border-radius: 0;
-    font-weight: normal;
-}
-.pages .numb{
-    letter-spacing:40px;    
-}
-.pages .point{
-    letter-spacing:5px;   
-}
-.pages .numbs{
-    margin: 0 24px;
+.pages li{
+    float:left;
 }
 .pages .button_right{
-    position: absolute;
-    right: 0;
+    float:right;
 }
-.numb30{
-    margin-left: 40px;
+.pages button{
+    width: 200px;
+    height: 60px;
+    border-radius:0%;
+    border-color:#f3f3f3;
+    margin-top:0;
 }
-.numb2{
-    color:#5696ff
+.numbs{
+    padding: 0 25px;
+}
+.numbs li{
+    margin-right: 40px;
 }
 
 
