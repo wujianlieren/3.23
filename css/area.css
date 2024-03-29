@@ -18,6 +18,9 @@
 body{
     background-color: #f3f3f3;
 }
+li{
+    list-style: none;
+}
 
 .nav {
     margin-left: 160px;
@@ -100,4 +103,142 @@ body{
     border:0.5px solid #b2b2b2;
     margin: auto;
     margin-top: 20px;
+}
+
+/* recommend */
+.hot_recommend{
+    width: 1140px;
+    background-color: white;
+    padding: 46px 30px;
+}
+.item .img{
+    width: 184px;
+    height: 258px;    
+    border: white solid 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+    
+}
+.item button{
+    width: 200px;
+    font-size: 18px;
+    color:white;
+    background-color: #5696ff;
+    line-height: 34px;
+    border:transparent;
+    border-radius: 5px;
+}   
+.item p{
+    margin: 10px 0;
+    color:#5696ff;
+}
+.hot_word{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+.items .item{
+    margin-right: 35px;
+}
+.img .info{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* guide */
+.guide{
+    margin-top: 60px;
+}
+.user>img,.user>span{
+    vertical-align:middle;
+}
+.download>p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.users .user{
+    margin-bottom: 10px;
+}
+.bottom_img{
+    margin-top: 30px;
+}
+
+/* 全部地区指南 */
+.row .sydney{    
+    border: 7px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 231px;
+    width: 166px;
+}
+.all_area .title{
+    font-size: 24px;
+}
+.all_area .time{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.all_area .time span{
+    color:#5696ff
+}
+.sydney .info{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.row li>p{
+    color:#5696ff;
+    margin: 5px 0;
+}
+.row .date{
+    color:#666666;
+}
+.row li{
+    margin-right: 32px;
+}
+
+/* pages */
+.pages{
+    width: 810px;
+}
+.pages li{
+    float:left;
+}
+.pages .button_right{
+    float:right;
+}
+.pages button{
+    width: 200px;
+    height: 60px;
+    border-radius:0%;
+    border-color:#f3f3f3;
+    margin-top:0;
+}
+.numbs{
+    padding: 0 25px;
+    width: 360px;
+    height: 60px;
+    margin-top: 20px;
+}
+.numbs li{
+    margin-right: 32px;
+}
+
+/* bottom */
+.bottom p{
+    width: 660px;
+    margin: auto;
+    font-size: 16px;
+    color: white;
+    line-height: 34px;
+}
+.bottom{
+    background-color: #5696ff;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 60px;
 }
