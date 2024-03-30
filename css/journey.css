@@ -1,0 +1,124 @@
+/* banner */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+body{
+    background-color: #f3f3f3;
+}
+li{
+    list-style: none;
+}
+
+.nav {
+    margin-left: 160px;
+}
+.w1200{
+    width: 1200px;
+    margin: auto;
+}
+.nav li {
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 72px;
+    width: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav li:hover {
+    background-color: #5696ff;
+}
+
+.logo{
+    margin-top: 7px;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.head>div {
+    margin-right: 50px;
+}
+
+.login p {    
+    line-height: 72px;
+    margin-left: 10px;
+}
+
+/* 搜索栏 */
+.search{
+    background-color: #666666;
+    padding: 20px 0;
+}
+.left .rect{
+    width: 2px;
+    height: 22px;
+    background-color: white;
+    margin-right: 40px;
+}
+.left .img{
+    margin-right: 40px;
+}
+
+/* body */
+.content{
+    margin-top: 60px;   
+}
+.selected{
+    width: 354px;    
+}
+.selected .buttons{
+    text-align: center;
+}
+.selected button{
+    width: 208px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    color: #5696ff;
+    font-size: 26px;    
+}
+.selected .button_bottom{
+    margin-top: 45px;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.selected .rect{
+    height: 1px;
+    background-color: #dcdcdc;
+    margin-top: 56px;
+}
+.info>span,.info>img{
+    vertical-align: middle;
+}
+.imgs{
+    margin-top: 60px;
+}
+.img_info{
+    margin-top: 60px;
+}
+.img_info .info{
+    padding: 22px;
+    background-color: white;
+}
+
+/* 左边小图 */
+.small_imgs>img,.small_imgs>span{
+    vertical-align: middle;
+}
