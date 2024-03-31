@@ -99,7 +99,7 @@ li{
 .rotate{
     transform: rotate(90deg);
 }
-.selected .rect{
+.selected_rect{
     height: 1px;
     background-color: #dcdcdc;
     margin-top: 56px;
@@ -119,6 +119,173 @@ li{
 }
 
 /* 左边小图 */
-.small_imgs>img,.small_imgs>span{
+.small_imgs{
+    margin-top: 36px;
+}
+.small_imgs .title{
+    position: relative; 
+    height: 90px;   
+    width: 190px;
+}
+.title>p{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.title>p span{
+    font-size: 12px;
+}
+.selected_rect_small{
+    height: 1px;
+    background-color: #dcdcdc;
+    margin-top: 36px;
+}
+
+/* about */
+.about{
+    margin-top: 30px;
+}
+.about .us{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.about .detail{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+.about button{
+    width: 122px;
+    height: 50px;
+    font-size:14px;
+    color: #666666;
+    margin-top: 30px;
+}
+
+/* 右边 */
+.Germany{
+    width: 772px;
+    height: 731px;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+}
+.moment P{
+    font-size: 22px;
+    font-weight: bold;
+}
+.moment .english{
+    font-size: 12px;
+    color:#999999;
+}
+.up{
+    width: 700px;
+    height: 78px;    
+    margin: auto;
+    margin-top: 36px;    
+    position: relative;
+}
+.avatar_name img,.avatar_name span{
     vertical-align: middle;
+}
+.date_avatar{
+    position: relative;
+}
+.avatar_name{
+    position: absolute;
+    right: 0%;
+    margin-top: 5px;
+}
+.rect_vertical{
+    height: 114px;
+    width: 1px;
+    background-color: #dcdcdc;    
+    position: absolute;
+    top: -36px;
+    right: 142px;
+}
+.rect_row{
+    height: 1px;
+    background-color: #dcdcdc;
+}
+.img_like{
+    width: 700px;
+    margin: auto;
+}
+.img_like{
+    margin-top: 60px;    
+}
+.img_like>p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.read button{
+    width: 110px;
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    background-color: transparent;
+}
+.read_like{
+    margin-top: 36px;
+}
+.like>*{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.like .rect{
+    width: 1px;
+    height: 16px;
+    background-color: #999999;
+}
+.like p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 16px;
+}
+.right{
+    width: 772px;
+}
+
+/* pages */
+.pages{
+    width: 772px;
+}
+.pages li{
+    float:left;
+}
+.pages .button_right{
+    float:right;
+}
+.pages button{
+    width: 200px;
+    height: 60px;    
+    border-color:#999999;
+    
+}
+.numbs{
+    padding: 0 25px;
+    
+    height: 60px;
+    margin-top: 20px;
+}
+.numbs li{
+    margin-right: 52px;
+}
+
+/* bottom */
+.bottom p{
+    width: 660px;
+    margin: auto;
+    font-size: 16px;
+    color: white;
+    line-height: 34px;
+}
+.bottom{
+    background-color: #5696ff;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 60px;
 }
